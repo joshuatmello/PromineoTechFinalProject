@@ -1,0 +1,10 @@
+spring:
+  datasource: 
+    password: coffeesubscription
+    username: coffeesubscription
+    url: jdbc:mysql://localhost:3306/coffeesubscription
+
+logging:
+  level:
+    root: warn 
+    '[com.promineotech]': debug
